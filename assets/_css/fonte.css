@@ -1,0 +1,26 @@
+/* FONTES ADICIONAIS */
+
+@font-face {
+	font-family: "Punk";
+	src: url("assets/_css/fonte/Punk.ttf");
+	}
+	
+@font-face {
+	font-family: "Armagedon";
+	src: url("assets/_css/fonte/Armagedon.ttf");
+	}
+
+@font-face {
+	font-family: "Baby Metal";
+	src: url("assets/_css/fonte/Baby Metal.ttf");
+	}
+
+@font-face {
+	font-family: "Philosopher";
+	src: url("assets/_css/fonte/Philosopher.ttf");
+	}
+
+@font-face {
+	font-family: "Anotherday";
+	src: url("assets/_css/fonte/Another.ttf");
+	}

@@ -1,0 +1,428 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Philosopher;
+	background-color: black;
+}
+
+
+
+.principal{
+	background-color: black;
+	width: 98%;
+	margin: auto;
+	box-sizing: border-box; 
+	padding: 10px;
+}
+
+header{
+	background-color: black;
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+}
+
+.logo {
+	font-family: Punk;
+	color: red;
+	text-align: center;
+}
+
+nav{
+	background-color: black;
+	margin-top: 10px;
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	font-family: Armagedon;
+	color: red;
+	float: left;
+	transition: 0,7s;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul li:hover{
+	background-color: red;
+	color: white;
+	transition: 0,7s;
+	text-decoration: none;
+}
+
+ul li ul li{
+	text-align: center;
+	box-sizing: border-box;
+}
+
+ul li ul li:hover{
+	background-color: red;
+	color: black;
+}
+
+ul li ul{
+	display: none;
+}
+
+ul li:hover ul{
+  display: block;
+}
+
+section{
+	margin-top: 10px;
+	width: 58%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	color: red;
+}
+
+h1{
+	font-family: Baby Metal;
+	text-align: center;
+	font-size: 180%;
+}
+
+aside{
+	width: 30%;
+	margin-top: 10px;
+	float: left;
+	margin-left: 1%;
+	color: red;
+	text-align: center;
+	font-size:120%;
+}
+
+
+figcaption{
+	text-align: center;
+	font: 150% Baby Metal;
+}
+
+figure{
+	margin-top: 3%;
+}
+
+.imgaside{
+	width: 40%;
+	height: auto;
+}
+
+fieldset{
+	width: 95%;
+	margin: auto;
+	border: 3px solid darkred;
+	border-radius: 5px;
+}
+
+footer{
+	width: 90%;
+	text-align: center;
+	color: white;
+	font-size: 100%;
+	margin-left: 5%;
+	clear: both;
+	margin-top: 2%;
+}
+
+.formNome, .formEmail, .formMsg{
+	width: 85%;
+	color: red;
+	font-size: 20pt;
+	border: 2px solid red;
+	margin-top: 8px;
+	padding: 5px 3%;
+}
+
+.formNome, .formEmail{
+	height: 50px;
+}
+
+.formMsg{
+	height: 200px;
+}
+	
+.btnContato{
+	color: red;
+	border: 4px solid red;
+	font-size: 40pt;
+	margin-left: 35%;
+	padding: 5px 2%;
+
+}
+
+.labelMsg, .labelEmail, .labelNome{
+	font-size: 20pt;
+	margin-left: 5%;
+}
+
+.animation{
+    display: nome;
+    background: black;
+    border: none;
+    height: 300px;
+    width: 300px;
+    align: center;
+	}
+
+.liNoticias{
+	list-style-type: none;
+	margin-bottom: 30px; 
+}
+
+.h1Noticias{
+	color: white;
+	text-align: center;
+	margin: 10px;
+
+}
+
+.h1Header{
+	border: 12px solid darkred;
+	border-radius: 30px; 
+	margin: 5%	
+}
+
+.pNoticias{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px
+}
+
+.abtn:focus, .btn::-moz-focus-inner{
+  outline:none;
+  border:none;
+}
+.abtn{
+  text-transform: uppercase;
+  font-weight:700;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+  margin-left: 42%;
+	margin-bottom: 80px;
+}
+
+.abtn-green{
+  background: red;
+  color:#fff;
+  box-shadow:0 5px 0 darkred;
+}
+
+.abtn-green:hover{
+  background: #d40000;
+  box-shadow:0 5px 0 #5a0000;
+}
+
+.abtn-green:active{
+  position:relative;
+  top:5px;
+  box-shadow: none;
+}
+
+.imgNoticias{
+	width: 80%;
+	height: auto;
+}
+
+.borderFrase{
+	margin-top: 10px;
+}
+
+.textoFrase{
+	margin-top: 25px;
+	font-family: "Anotherday";
+	font-size: 35px;
+	color: #DD9338;
+}
+
+.textoAutor{
+	font-family: "Anotherday";
+	font-size: 40px;
+	margin-top: 1px;
+	margin-bottom: 25px;
+	color: #FF8C00;
+}
+
+.isolamento{
+	margin-right: 15px;
+	width: 100%;
+	border: 2px solid darkred;
+}
+
+
+
+
+	
+@media screen and (max-width:870px){
+	aside {
+		display: none;
+	}
+	section{
+		width: 90%;
+	}
+}
+
+@media screen and (min-width:870px){
+	section {
+		border-right: solid 1px red;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+/*RESPONSIVE LAYOUT FONT-SIZE OF LOGO*/	
+	
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width:1601px) {
+	*{
+		font-size: 20pt
+	}
+	.logo{
+        font-size: 200px;
+    }
+	ul li{
+		font-size: 50px;
+		width: 260px;
+		height: 80px;
+		line-height: 80px;
+	}
+	ul li ul li{
+		padding-left: 20px;
+	}
+}
+	
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width:1351px) and (max-width: 1600px) {
+	*{
+		font-size: 15pt
+	}
+	.logo{
+        font-size: 150px;
+    }
+	ul li{
+		font-size: 40px;
+		width: 225px;
+		height: 70px;
+		line-height: 70px;
+	}
+	ul li ul li{
+		padding-left: 10px;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:1001px) and (max-width: 1350px) {
+	*{
+		font-size: 13pt
+	}
+	.logo{
+    font-size: 125px;
+  }
+	ul li{
+		font-size: 35px;
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+	}
+	ul li ul li{
+		padding-left: 10px;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:871px) and (max-width: 1000px) {
+    .logo{
+        font-size: 90px;
+    }
+	ul li{
+		font-size: 25px;
+		width: 150px;
+		height: 40px;
+		line-height: 40px;
+	}
+		ul li ul li{
+		padding-left: 7px;
+	}
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:768px) and (max-width: 870px) {
+    .logo{
+        font-size: 90px;
+    }
+	ul li{
+		font-size: 22px;
+		width: 140px;
+		height: 38px;
+		line-height: 38px;
+	}
+		ul li ul li{
+		padding-left: 5px;
+	}
+	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .logo{
+        font-size: 70px;
+    }
+	ul li{
+		font-size: 20px;
+		width: 110px;
+		height: 35px;
+		line-height: 35px;
+	}
+	ul li ul li{
+		padding-left: 4px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 520px) and (max-width: 600px) {
+    .logo{
+        font-size: 65px;
+    }
+	ul li{
+		font-size: 18px;
+		width: 95px;
+		height: 30px;
+		line-height: 30px;
+	}
+	ul li ul li{
+		padding-left: 2px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 519px) {
+    .logo{
+        font-size: 45px;
+    }
+	ul li{
+		font-size: 35px;
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+	}
+	ul li ul li{
+		padding-left: 10px;
+	}
+}

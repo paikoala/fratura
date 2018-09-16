@@ -1,0 +1,118 @@
+*{
+	background-color: black;
+}
+
+@font-face {
+	font-family: "Punk";
+	src: url("http://www.fraturaexposta.com/assets/_css/fonte/Punk.ttf");
+	}
+	
+body{
+	font-family: Verdana;
+	font-size: 95%;
+}
+
+header{
+	color: red;
+	font-family: Punk;
+    text-align: center;
+}
+
+section{
+    width: 90%;
+	margin:auto;
+	padding: 10px;
+    color: red;
+}
+
+fieldset{
+	width: 50%;
+    margin: auto;
+    border: 3px solid darkred;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.campos{
+    width: 80%;
+    height: 30px;
+    border: 2px solid darkred;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 30%;
+    height: 30px;
+    border: 1px solid darkred;
+    color: white;
+}
+
+footer{
+	width: 90%;
+	text-align: center;
+	color: white;
+	font-size: 100%;
+	margin-left: 5%;
+	clear: both;
+	margin-top: 2%;
+}
+
+
+
+/*RESPONSIVE LAYOUT FONT-SIZE OF LOGO*/	
+	
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width:1601px) {
+    .logo{
+        font-size: 200px;
+    }
+}
+	
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width:1351px) and (max-width: 1600px) {
+    .logo{
+        font-size: 150px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:1001px) and (max-width: 1350px) {
+    .logo{
+        font-size: 125px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:871px) and (max-width: 1000px) {
+    .logo{
+        font-size: 90px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:768px) and (max-width: 870px) {
+    .logo{
+        font-size: 90px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .logo{
+        font-size: 70px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 520px) and (max-width: 600px) {
+    .logo{
+        font-size: 65px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 519px) {
+    .logo{
+        font-size: 45px;
+}

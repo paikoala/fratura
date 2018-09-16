@@ -1,0 +1,156 @@
+*{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: Philosopher;
+	background-color: black; 
+} 
+
+nav{
+	width: 90%;
+}
+
+ul li{
+	border:2px solid red;
+}
+
+input, label {
+    margin-left: 18%;
+}
+
+label{
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+input, textarea{
+	display: block;
+	margin-bottom: 35px;
+	padding: 5px 2%;
+	width:60%;
+}
+
+input[type="file"]{
+	padding-left: 0;
+}
+
+textarea{
+	height: 150px;
+}
+
+input.botao{
+	width:auto;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+table{
+	width: 100%;
+	font-size: 18px;
+}
+
+table td{
+	padding: 10px 0;
+}
+
+table tbody tr:hover{
+	background: #f1f2ea;
+	color: #727272;
+}
+
+img.thumb-edicao{
+	width: 200px;
+	height: auto;
+}
+
+.msg-box{
+	box-sizing: border-box;
+	width: 60%;
+	border: 1px solid red;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	color: #727272;
+	margin-left: 20%;
+	font-size: 14pt;
+}
+
+.msg-box p{
+	margin: 0;
+	padding: 2px 0;
+}
+
+.menuNoticias{
+	display:inline;
+	list-style-type:none;
+	clear:both;
+	text-align: center;
+}
+
+.divisoria{
+	border-top: 2px solid red;
+	margin-bottom: 5px;
+
+}
+
+.colunaNoticias, .colunaNoticias2{
+	float: left;
+	margin-left: 2%;
+}
+
+.colunaNoticias2{
+	width: 70%;
+}
+
+.colunaConfig{
+	margin-left: 5%;
+}
+
+.h2Login, .h2Instalar{
+	margin-bottom: 3%;
+	font-size: 150px;
+}
+
+.h2Login{
+	margin-top: 7%;
+	font-size: 150px;
+}
+
+.h2Instalar{
+	margin-top: 2%;
+	font-size: 100px;
+}
+
+.vivahardcore{
+	font-family: "Punk";
+	font-size: 50pt;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+
+	/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (width:1080px) and (height: 1920px) {
+
+* {
+    font-size: 20pt;
+}
+
+input, label {
+    margin-left: 10%;  
+    font-size: 200px; 
+}
+
+input, textarea {
+    width: 80%;
+}
+
+.h2Login, .h2Instalar {
+    margin-bottom: 15%;
+}
+
+}
